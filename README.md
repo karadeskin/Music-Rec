@@ -30,13 +30,13 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-2. Install required Python packages.
+3. Install required Python packages.
 You can install the required packages by running:
 ```bash
 pip install pandas Flask requests spotipy scikit-learn urllib3 python-dotenv
 ```
 
-3. Set up Spotify Developer Credentials.
+4. Set up Spotify Developer Credentials.
 In config.py, in the root directory, add the following:
 ```
 CLIENT_ID = 'your_spotify_client_id'
@@ -44,7 +44,7 @@ CLIENT_SECRET = 'your_spotify_client_secret'
 ```
 You can access these credentials by creating an app as a spotify developer then viewing your Client ID and Client Secret. 
 
-4) Once everything is set up, you can run the Flask app using:
+5. Once everything is set up, you can run the Flask app using:
 ```bash
 python(3) main.py
 ```
@@ -54,8 +54,8 @@ The app will be available at http://localhost:8888/.
 1. Open your browser and navigate to http://localhost:8888/.
 2. Click on "Login with Spotify" to authenticate with your Spotify account.
 3. After logging in, you'll be redirected to a page where you can enter:
-- A Spotify playlist ID (from a public or private playlist).
-- A song name from that playlist to receive song recommendations.
+  - A Spotify playlist ID (from a public or private playlist).
+  - A song name from that playlist to receive song recommendations.
 4. Click "Get Recommendations" to view a list of recommended songs.
 
 ## API Documentation
