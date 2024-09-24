@@ -69,3 +69,4 @@ The app will be available at http://localhost:8888/
 ## Future Improvements
 - Improve the UI.
 - Add additional filters to recommendations (e.g., genre, mood, etc.).
+- Query Spotify playlists. 
