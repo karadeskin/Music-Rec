@@ -10,36 +10,34 @@ This is a Flask web application that integrates with the Spotify API to allow us
 
 ## Installation
 ### Prerequisites
-Python 3.x
-Spotify Developer Account (to get the Client ID and Client Secret)
-Flask
-Spotipy (Spotify Web API library)
-Scikit-learn (for scaling and similarity measures)
-Pandas (for data handling)
+- Python 3.x
+- Spotify Developer Account (to get the Client ID and Client Secret)
+- Flask
+- Spotipy (Spotify Web API library)
+- Scikit-learn (for scaling and similarity measures)
+- Pandas (for data handling)
+
 Steps to Run
 1. Clone the repository:
 ```bash
 git clone https://github.com/karadeskin/Music-Rec.git
 cd Music-Rec
 ```
+
 2. Install required Python packages:
 You can install the required packages by running:
 ```bash
 pip install pandas Flask requests spotipy scikit-learn urllib3 python-dotenv
 ```
-3) Set up Spotify Developer Credentials:
 
+3. Set up Spotify Developer Credentials:
 In config.py, in the root directory, add the following:
-
 CLIENT_ID = 'your_spotify_client_id'
 CLIENT_SECRET = 'your_spotify_client_secret'
-
 You can get these credentials from creating an app as a spotify developer then viewing your client id and client secret. 
 
 4) Run the app:
-
 Once everything is set up, you can run the Flask app using:
-
 ```bash
 python(3) main.py
 ```
@@ -55,13 +53,13 @@ The app will be available at http://localhost:8888/.
 
 ## API Documentation
 ### Routes
-/: Home page with the option to log in using Spotify.
-/login: Initiates the OAuth login flow with Spotify.
-/callback: Handles the callback from Spotify's OAuth process.
-/playlists: Allows users to enter playlist ID and song name, and returns song recommendations.
-/refresh-token: Refreshes the access token if it has expired.
+- /: Home page with the option to log in using Spotify.
+- /login: Initiates the OAuth login flow with Spotify.
+- /callback: Handles the callback from Spotify's OAuth process.
+- /playlists: Allows users to enter playlist ID and song name, and returns song recommendations.
+- /refresh-token: Refreshes the access token if it has expired.
 
 ## Future Improvements
-Allow users to search for playlists directly within the app.
-Improve the recommendation algorithm by incorporating more user-specific data.
-Add additional filters to recommendations (e.g., genre, mood, etc.).
+- Allow users to search for playlists directly within the app.
+- Improve the recommendation algorithm by incorporating more user-specific data.
+- Add additional filters to recommendations (e.g., genre, mood, etc.).
