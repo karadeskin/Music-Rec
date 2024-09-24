@@ -36,10 +36,9 @@ In config.py, in the root directory, add the following:
 CLIENT_ID = 'your_spotify_client_id'
 CLIENT_SECRET = 'your_spotify_client_secret'
 ```
-You can get these credentials from creating an app as a spotify developer then viewing your client id and client secret. 
+You can access these credentials by creating an app as a spotify developer then viewing your Client ID and Client Secret. 
 
-4) Run the app:
-Once everything is set up, you can run the Flask app using:
+4) Once everything is set up, you can run the Flask app using:
 ```bash
 python(3) main.py
 ```
