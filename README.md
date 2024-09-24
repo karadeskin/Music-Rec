@@ -2,7 +2,7 @@
 This is a Flask web application that integrates with the Spotify API to allow users to view playlist data, get song recommendations, and explore music based on content features such as danceability, energy, and tempo. The app leverages Spotify's OAuth flow for authentication, and users can input a playlist ID and a song name to receive song recommendations using a hybrid recommendation system.
 
 ## Features
-- Spotify OAuth Login: Users can log in with their Spotify accounts to authorize access to their playlists.
+- Spotify OAuth Login: Users can login with their Spotify accounts to authorize access to their playlists.
 - Playlist Data Retrieval: Fetches data from user playlists, including track details and audio features.
 - Content-Based Song Recommendations: Recommends songs based on audio features such as danceability, energy, and more.
 - Hybrid Recommendations: Combines content-based recommendations with popularity-based ranking to suggest songs.
