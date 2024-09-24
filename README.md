@@ -30,7 +30,7 @@ You can install the required packages by running:
 pip install pandas Flask requests spotipy scikit-learn urllib3 python-dotenv
 ```
 
-3. Set up Spotify Developer Credentials:
+3. Set up Spotify Developer Credentials.
 In config.py, in the root directory, add the following:
 ```
 CLIENT_ID = 'your_spotify_client_id'
