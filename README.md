@@ -24,6 +24,12 @@ git clone https://github.com/karadeskin/Music-Rec.git
 cd Music-Rec
 ```
 
+2. Create a virtual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
 2. Install required Python packages.
 You can install the required packages by running:
 ```bash
