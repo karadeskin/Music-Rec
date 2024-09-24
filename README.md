@@ -37,7 +37,7 @@ pip install pandas Flask requests spotipy scikit-learn urllib3 python-dotenv
 ```
 
 4. Set up Spotify Developer Credentials.
-In config.py, replace the 'your_spotify_client_id' & the 'your_spotify_client_secret' with your actual Client ID and Client Secret:
+In config.py, replace 'your_spotify_client_id' & 'your_spotify_client_secret' with your actual Client ID and Client Secret:
 ```
 CLIENT_ID = 'your_spotify_client_id'
 CLIENT_SECRET = 'your_spotify_client_secret'
