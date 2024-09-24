@@ -17,14 +17,14 @@ This is a Flask web application that integrates with the Spotify API to allow us
 - Scikit-learn (for scaling and similarity measures)
 - Pandas (for data handling)
 
-Steps to Run
+### Steps to Run
 1. Clone the repository:
 ```bash
 git clone https://github.com/karadeskin/Music-Rec.git
 cd Music-Rec
 ```
 
-2. Install required Python packages:
+2. Install required Python packages.
 You can install the required packages by running:
 ```bash
 pip install pandas Flask requests spotipy scikit-learn urllib3 python-dotenv
