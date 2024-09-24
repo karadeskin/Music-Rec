@@ -47,9 +47,9 @@ The app will be available at http://localhost:8888/.
 1. Open your browser and navigate to http://localhost:8888/.
 2. Click on "Login with Spotify" to authenticate with your Spotify account.
 3. After logging in, you'll be redirected to a page where you can enter:
-4. A Spotify playlist ID (from a public or private playlist).
-5. A song name from that playlist to receive song recommendations.
-6. Click "Get Recommendations" to view a list of recommended songs.
+- A Spotify playlist ID (from a public or private playlist).
+- A song name from that playlist to receive song recommendations.
+4. Click "Get Recommendations" to view a list of recommended songs.
 
 ## API Documentation
 ### Routes
