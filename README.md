@@ -37,12 +37,12 @@ pip install pandas Flask requests spotipy scikit-learn urllib3 python-dotenv
 ```
 
 4. Set up Spotify Developer Credentials.
-In config.py, in the root directory, add the following:
+In config.py, replace the 'your_spotify_client_id' & the 'your_spotify_client_secret' with your actual Client ID and Client Secret:
 ```
 CLIENT_ID = 'your_spotify_client_id'
 CLIENT_SECRET = 'your_spotify_client_secret'
 ```
-You can access these credentials by creating an app as a spotify developer then viewing your Client ID and Client Secret. 
+You can access these credentials by creating an app as a spotify developer then viewing your Client ID and Client Secret. If you need help doing this, here is a helpful link: https://developer.spotify.com/documentation/web-api/concepts/apps 
 
 5. Once everything is set up, you can run the Flask app using:
 ```bash
