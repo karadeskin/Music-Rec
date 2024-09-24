@@ -48,7 +48,7 @@ You can access these credentials by creating an app as a spotify developer then 
 ```bash
 python(3) main.py
 ```
-The app will be available at http://localhost:8888/.
+The app will be available at http://localhost:8888/
 
 ## Usage
 1. Open your browser and navigate to http://localhost:8888/.
@@ -60,13 +60,12 @@ The app will be available at http://localhost:8888/.
 
 ## API Documentation
 ### Routes
-- /: Home page with the option to log in using Spotify.
+- /: Home page with the option to login using Spotify.
 - /login: Initiates the OAuth login flow with Spotify.
 - /callback: Handles the callback from Spotify's OAuth process.
 - /playlists: Allows users to enter playlist ID and song name, and returns song recommendations.
 - /refresh-token: Refreshes the access token if it has expired.
 
 ## Future Improvements
-- Allow users to search for playlists directly within the app.
-- Improve the recommendation algorithm by incorporating more user-specific data.
+- Improve the UI.
 - Add additional filters to recommendations (e.g., genre, mood, etc.).
