@@ -1,6 +1,6 @@
 #client id and client secret
-CLIENT_ID = 'b83a1340bfeb40ada89d1a1b2867cfb9'
-CLIENT_SECRET = '7944f8dcc5094c26a12794ac350b0dd1'
+CLIENT_ID = 'your_spotify_client_id'
+CLIENT_SECRET = 'your_spotify_client_secret'
 
 
 
