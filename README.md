@@ -18,7 +18,7 @@ This is a Flask web application that integrates with the Spotify API to allow us
 - Pandas (for data handling)
 
 ### Steps to Run
-1. Clone the repository:
+1. Clone the repository. Navigate to where you want the repo, and then execute the following commands:
 ```bash
 git clone https://github.com/karadeskin/Music-Rec.git
 cd Music-Rec
